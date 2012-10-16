@@ -1,7 +1,7 @@
-BigCommerce API V2 - Python Client
+Bigcommerce API V2 - Python Client
 ==================================
 
-This module provides an object-oriented wrapper around the BigCommerce V2 API
+This module provides an object-oriented wrapper around the Bigcommerce V2 API
 for use in Python projects or via the Python shell.
 
 Requirements:

@@ -1,5 +1,5 @@
 """
-This module provides an object-oriented wrapper around the BigCommerce V2 API
+This module provides an object-oriented wrapper around the Bigcommerce V2 API
 for use in Python projects or via the Python shell.
 
 """
@@ -51,7 +51,7 @@ class Connection(object):
 		return http.request(url, method, headers=headers, body=body)
 
 class Resource(object):
-	"""Base class representing BigCommerce resources"""
+	"""Base class representing Bigcommerce resources"""
 
 	client = Connection()
 
@@ -63,7 +63,7 @@ class Time(Resource):
 
 	@classmethod
 	def get(self):
-		"""Returns the current time stamp of the BigCommerce store."""
+		"""Returns the current time stamp of the Bigcommerce store."""
 		return self.client.request_json('GET', '/time')
 
 class Products(Resource):
